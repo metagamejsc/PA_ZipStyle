@@ -3467,8 +3467,30 @@ MonoBehaviour:
   Lightning: 1
   colorLight: {r: 1, g: 1, b: 1, a: 1}
   bgMusic: {fileID: 8300000, guid: 37c1493305a7256459a3dff274601356, type: 3}
+  cardStackManager: {fileID: 0}
+  card1Photo: {fileID: 0}
+  card1Name: Anna
+  card1AgeLocation: "23 / H\xE0 N\u1ED9i"
+  card1Distance: 2 km away
+  card1Tag: Coffee
+  card2Photo: {fileID: 0}
+  card2Name: Linh
+  card2AgeLocation: "21 / \u0110\xE0 N\u1EB5ng"
+  card2Distance: 5 km away
+  card2Tag: Travel
+  card3Photo: {fileID: 0}
+  card3Name: Mia
+  card3AgeLocation: 24 / TP.HCM
+  card3Distance: 1 km away
+  card3Tag: Music
   directionalLight: {fileID: 0}
   isCretivePause: 0
+  endCardPhoto: {fileID: 0}
+  endCardImage: {fileID: 0}
+  logoTopTexture: {fileID: 0}
+  logoTopImage: {fileID: 0}
+  logoLeftTexture: {fileID: 0}
+  logoLeftImage: {fileID: 0}
   lstBtnInstall:
   - {fileID: 9104468052578426863}
   - {fileID: 634620738049180203}

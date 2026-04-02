@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip bgSound;
     public AudioClip winSound;
     public AudioClip clickSound;
+    public AudioClip swipeLeftSound;
+    public AudioClip swipeRightSound;
 
     public List<AudioClip> lstMoveSound;
 
@@ -26,7 +28,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         bgSound=LunaManager.ins.bgMusic;
-        //PlayMusic();
+        PlayMusic();
     }
 
     public void PlaySound(AudioClip audioClip)
@@ -42,7 +44,14 @@ public class AudioManager : MonoBehaviour
     {
         sound.PlayOneShot(clickSound,1);
     }
-
+    public void PlayswipeLeftSound()
+    {
+        sound.PlayOneShot(swipeLeftSound,1);
+    }
+    public void PlayswipeRightSound()
+        {
+            sound.PlayOneShot(swipeRightSound,1);
+        }
     public void PlaySoundMove()
     {
         sound.PlayOneShot(lstMoveSound[Random.Range(0,lstMoveSound.Count)],1);
